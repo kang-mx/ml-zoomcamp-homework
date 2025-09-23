@@ -31,7 +31,7 @@ Topics:
 
 Output:
 - [Homework](https://github.com/kang-mx/ml-zoomcamp-homework/tree/main/01-intro)
-- [LinkedIn](https://www.linkedin.com/posts/kangmx_machinelearning-zoomcamp-python-activity-7376220051915403264-uYT8?utm_source=share&utm_medium=member_desktop&rcm=ACoAADZ7zokBjWY3QLwaP-WnCu_lCWI2hRQv5vQ)
+- [LinkedIn](https://www.linkedin.com/posts/kangmx_machinelearning-zoomcamp-python-activity-7376220051915403264-uYT8/)
 - [Infographic](https://www.canva.com/design/DAGzrtoC7jw/m_lM4aoFVRwAp65NojUx4A/edit?ui=e30)
 
 References:
