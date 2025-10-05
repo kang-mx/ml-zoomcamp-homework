@@ -39,3 +39,27 @@ References:
 - [Fill in blank rows](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.fillna.html)
 - [Get first N](https://www.geeksforgeeks.org/pandas/get-first-n-records-of-a-pandas-dataframe/)
 - [Sum of array](https://www.geeksforgeeks.org/dsa/program-find-sum-elements-given-array/)
+
+
+## Module 2: Linear Regression
+
+Learn how to build and evaluate predictive models using linear regression, one of the foundational algorithms in machine learning.
+
+Topics:
+- Data preparation and exploration
+- Validation framework
+- Linear regression (simple, vector, training)
+- Model evaluation with RMSE
+- Feature engineering and categorical variables
+- Regularization and model tuning
+
+Output:
+- [Homework](https://github.com/kang-mx/ml-zoomcamp-homework/tree/main/02-regression)
+- [LinkedIn]()
+- [Infographic](https://www.canva.com/design/DAGzrtoC7jw/m_lM4aoFVRwAp65NojUx4A/edit?ui=e30)
+
+References:
+- [Find median (pandas)](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.median.html)
+- [Find mean (pandas)](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.mean.html)
+- [Sort dataframe by columns](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.sort_values.html)
+- [Jupyter notebook bold markdown](https://www.ibm.com/docs/en/db2-event-store/2.0.0?topic=notebooks-markdown-jupyter-cheatsheet)
