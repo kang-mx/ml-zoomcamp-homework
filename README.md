@@ -55,7 +55,7 @@ Topics:
 
 Output:
 - [Homework](https://github.com/kang-mx/ml-zoomcamp-homework/tree/main/02-regression)
-- [LinkedIn]()
+- [LinkedIn](https://www.linkedin.com/feed/update/urn:li:share:7380648027461632000/)
 - [Infographic](https://www.canva.com/design/DAGzrtoC7jw/m_lM4aoFVRwAp65NojUx4A/edit?ui=e30)
 
 References:
