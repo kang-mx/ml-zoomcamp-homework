@@ -63,3 +63,30 @@ References:
 - [Find mean (pandas)](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.mean.html)
 - [Sort dataframe by columns](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.sort_values.html)
 - [Jupyter notebook bold markdown](https://www.ibm.com/docs/en/db2-event-store/2.0.0?topic=notebooks-markdown-jupyter-cheatsheet)
+
+
+## Module 3: Classification
+
+Learn how to classify and predict categorical outcomes using logistic regression, one of the most widely used algorithms for binary classification problems.
+
+### Topics
+- Churn prediction project setup  
+- Data preparation and exploratory data analysis (EDA)  
+- Building a validation framework  
+- Feature importance analysis (churn rate, risk ratio, mutual information, correlation)  
+- Handling categorical variables with one-hot encoding  
+- Logistic regression theory and implementation with Scikit-learn  
+- Model interpretation and evaluation  
+- Making predictions and using the model in practice  
+
+Output:
+- [Homework](https://github.com/kang-mx/ml-zoomcamp-homework/tree/main/03-classification)
+- [LinkedIn]()
+
+References:
+- [Find null values](https://www.geeksforgeeks.org/python/python-pandas-dataframe-fillna-to-replace-null-values-in-dataframe/)
+- [Correlation matrix](https://www.w3schools.com/datascience/ds_stat_correlation_matrix.asp)
+- [Fit or fit_transform](https://www.kaggle.com/discussions/questions-and-answers/58368)
+- [Feature extraction](https://scikit-learn.org/stable/modules/feature_extraction.html)
+- [Feature selection](https://scikit-learn.org/stable/modules/feature_selection.html)
+- [DictVectorizer](https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.DictVectorizer.html)
