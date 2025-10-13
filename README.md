@@ -81,7 +81,7 @@ Learn how to classify and predict categorical outcomes using logistic regression
 
 Output:
 - [Homework](https://github.com/kang-mx/ml-zoomcamp-homework/tree/main/03-classification)
-- [LinkedIn]()
+- [LinkedIn](https://github.com/kang-mx/ml-zoomcamp-homework/blob/main/03-classification/homework.ipynb)
 
 References:
 - [Find null values](https://www.geeksforgeeks.org/python/python-pandas-dataframe-fillna-to-replace-null-values-in-dataframe/)
