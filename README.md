@@ -106,7 +106,7 @@ Topics:
 - Model interpretation and comparison
 
 Output:
-- [Homework](https://github.com/kang-mx/ml-zoomcamp-homework/main/04-evaluation/homework.ipynb)
+- [Homework](https://github.com/kang-mx/ml-zoomcamp-homework/blob/main/04-evaluation/homework.ipynb)
 - [LinkedIn](https://www.linkedin.com/posts/kangmx_ml-zoomcamp-homework04-evaluationhomeworkipynb-activity-7385638371810795520-XQwr/)
 
 References:
