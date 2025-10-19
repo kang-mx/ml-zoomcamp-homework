@@ -69,7 +69,7 @@ References:
 
 Learn how to classify and predict categorical outcomes using logistic regression, one of the most widely used algorithms for binary classification problems.
 
-### Topics
+Topics:
 - Churn prediction project setup  
 - Data preparation and exploratory data analysis (EDA)  
 - Building a validation framework  
@@ -90,3 +90,29 @@ References:
 - [Feature extraction](https://scikit-learn.org/stable/modules/feature_extraction.html)
 - [Feature selection](https://scikit-learn.org/stable/modules/feature_selection.html)
 - [DictVectorizer](https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.DictVectorizer.html)
+
+
+## Module 4: Evaluation
+
+Learn how to properly evaluate machine learning models and measure their performance beyond accuracy.  
+This module introduces key metrics for classification, model validation techniques, and methods for improving model generalization.
+
+Topics:
+- Accuracy and dummy models
+- Confusion matrix interpretation
+- Precision, recall, and F1-score
+- ROC curves and AUC (Area Under the Curve)
+- Cross-validation for robust model evaluation
+- Model interpretation and comparison
+
+Output:
+- [Homework](https://github.com/kang-mx/ml-zoomcamp-homework/main/04-evaluation/homework.ipynb)
+- [LinkedIn](https://www.linkedin.com/posts/kangmx_ml-zoomcamp-homework04-evaluationhomeworkipynb-activity-7385638371810795520-XQwr/)
+
+References:
+- [Classification interpretation](https://developers.google.com/machine-learning/crash-course/classification/roc-and-auc)
+- [AUC and ROC Curve](https://www.geeksforgeeks.org/machine-learning/auc-roc-curve/)
+- [Precision and Recall](https://builtin.com/data-science/precision-and-recall)
+- [F1-score guide](https://www.v7labs.com/blog/f1-score-guide)
+- [ROC AUC Score Scikit-Learn](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.roc_auc_score.html)
+- [Confusion Matrix](https://www.geeksforgeeks.org/machine-learning/confusion-matrix-machine-learning/)
