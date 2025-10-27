@@ -116,3 +116,25 @@ References:
 - [F1-score guide](https://www.v7labs.com/blog/f1-score-guide)
 - [ROC AUC Score Scikit-Learn](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.roc_auc_score.html)
 - [Confusion Matrix](https://www.geeksforgeeks.org/machine-learning/confusion-matrix-machine-learning/)
+
+
+## Module 5: Deployment
+
+Topics:
+- Saving and loading models for production
+- Building APIs with Flask and FastAPI
+- Managing environments with Pipenv and uv
+- Containerizing applications with Docker
+- Serving machine learning models as web services
+- Practical deployment workflow for real-world projects
+
+Output:
+- [Homework](https://github.com/kang-mx/ml-zoomcamp-homework/tree/main/05-deployment/homework)
+- [Docker Hub](https://hub.docker.com/layers/kangmx/conversion-v3/latest/images/sha256:eb67a51d853655e06047b7b3d2fadbb36dccf167ba2449ffb0055d4769be374c?uuid=30AE8A45-B7A8-4EA8-98EF-185E0E52DDA2)
+- [LinkedIn]()
+ 
+References:
+- [Linux Operating System](https://www.geeksforgeeks.org/linux-unix/introduction-to-linux-operating-system/)
+- [Create Virtual Environment](https://docs.astral.sh/uv/pip/environments/#creating-a-virtual-environment)
+- [Docker](https://www.geeksforgeeks.org/devops/introduction-to-docker/)
+- [Install Docker Desktop](https://andrewlock.net/installing-docker-desktop-for-windows/)
