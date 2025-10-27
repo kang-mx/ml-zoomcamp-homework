@@ -131,7 +131,7 @@ Topics:
 Output:
 - [Homework](https://github.com/kang-mx/ml-zoomcamp-homework/tree/main/05-deployment/homework)
 - [Docker Hub](https://hub.docker.com/layers/kangmx/conversion-v3/latest/images/sha256:eb67a51d853655e06047b7b3d2fadbb36dccf167ba2449ffb0055d4769be374c?uuid=30AE8A45-B7A8-4EA8-98EF-185E0E52DDA2)
-- [LinkedIn]()
+- [LinkedIn](https://www.linkedin.com/posts/kangmx_mlzoomcamp-machinelearning-fastapi-activity-7388484605785587712-S9j0/)
  
 References:
 - [Linux Operating System](https://www.geeksforgeeks.org/linux-unix/introduction-to-linux-operating-system/)
