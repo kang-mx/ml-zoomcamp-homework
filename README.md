@@ -138,3 +138,27 @@ References:
 - [Create Virtual Environment](https://docs.astral.sh/uv/pip/environments/#creating-a-virtual-environment)
 - [Docker](https://www.geeksforgeeks.org/devops/introduction-to-docker/)
 - [Install Docker Desktop](https://andrewlock.net/installing-docker-desktop-for-windows/)
+
+
+# Module 6: Trees
+
+Topics:
+- Decision trees and the learning algorithm  
+- Decision tree parameter tuning (max_depth, min_samples, etc.)  
+- Ensemble learning with Random Forest  
+- Feature importance in tree-based models  
+- Gradient boosting and XGBoost fundamentals  
+- XGBoost parameter tuning (eta, max_depth, min_child_weight, etc.)  
+- Selecting the best model (validation, CV, performance trade-offs)
+
+Output:
+- [Homework](https://github.com/kang-mx/ml-zoomcamp-homework/blob/main/06-trees/homework.ipynb)
+- [LinkedIn](https://www.linkedin.com/posts/kangmx_mlzoomcamp-machinelearning-xgboost-activity-7391074174250840064-wltC)
+- [Infographic](https://www.canva.com/design/DAGzrtoC7jw/m_lM4aoFVRwAp65NojUx4A/edit)
+
+References:
+- [Decision Tree Regressor](https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeRegressor.html)
+- [Random Forest Regressor](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestRegressor.html)
+- [XGBoost](https://xgboost.readthedocs.io/en/stable/)
+- [Difference between Random Forest vs XGBoost](https://www.geeksforgeeks.org/machine-learning/difference-between-random-forest-vs-xgboost/)
+- [Random Forest Feature Importance](https://www.geeksforgeeks.org/machine-learning/difference-between-random-forest-vs-xgboost/)
