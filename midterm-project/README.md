@@ -41,7 +41,8 @@ Dataset link: https://www.kaggle.com/datasets/fahmidachowdhury/manufacturing-def
 - `notebook.ipynb` — full EDA and experimentation  
 - `predict.py` — FastAPI web service  
 - `pyproject.toml` — dependency definitions  
-- `README.md` — project documentation  
+- `README.md` — project documentation
+- `test_api.py` — script to test API requests  
 - `train.py` — model training script  
 - `uv.lock` — locked dependency versions for reproducibility  
 
@@ -131,7 +132,10 @@ uvicorn predict:app --host 0.0.0.0 --port 3000
 API will be available at:
 http://localhost:3000
 
-Example request (POST /predict):
+### Example POST request:
+Endpoint: http://localhost:3000/predict
+Method: POST
+Body:
 ```json
 {
   "defect_type": "Structural",
@@ -150,6 +154,18 @@ Example response:
   "repair_cost": 489.6082901843305
 }
 ```
+
+---
+
+## 💡 Testing the API
+
+You can use the new test_api.py script to quickly send requests to your deployed API:
+```bash
+python test_api.py
+```
+
+It contains the same example JSON payload and prints out the prediction.
+
 ---
 
 ## 🐳 Docker Deployment
@@ -214,3 +230,4 @@ This project is for educational use and demonstration purposes.
 
 
 ---
+
