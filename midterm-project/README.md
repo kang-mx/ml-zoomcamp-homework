@@ -34,7 +34,6 @@ Dataset link: https://www.kaggle.com/datasets/fahmidachowdhury/manufacturing-def
 
 ## 📁 Folder Structure
 
-- `.venv/` — uv virtual environment  
 - `.python-version` — Python version file  
 - `defects_data.csv` — training dataset  
 - `Dockerfile` — defines deployment container  
@@ -212,5 +211,6 @@ Environment is fully isolated inside .venv.
 ## 📜 License
 
 This project is for educational use and demonstration purposes.
+
 
 ---
