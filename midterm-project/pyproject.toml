@@ -1,0 +1,16 @@
+[project]
+name = "midterm"
+version = "0.1.0"
+description = "Repair Cost API"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi>=0.121.2",
+    "scikit-learn>=1.7.2",
+    "uvicorn>=0.38.0",
+]
+
+[dependency-groups]
+dev = [
+    "requests>=2.32.5",
+]
