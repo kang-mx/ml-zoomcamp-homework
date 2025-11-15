@@ -228,6 +228,6 @@ Environment is fully isolated inside .venv.
 
 This project is for educational use and demonstration purposes.
 
-
 ---
+
 
