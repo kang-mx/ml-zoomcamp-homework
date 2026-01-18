@@ -182,12 +182,14 @@ Capstone-Project/
 
 ## 10. System Architecture
 
+![System Architecture](screenshots/system_architecture.png)
+
 ---
 
 ## 11. References
 
 - NASA CMAPSS Dataset: (https://data.nasa.gov/dataset/cmapss-jet-engine-simulated-data)
-- LinkedIn post:
+- LinkedIn post: (https://www.linkedin.com/posts/kangmx_datascience-machinelearning-deeplearning-activity-7418577903048871936-lejy)
 - RUL(1): (https://fiixsoftware.com/maintenance-metrics/remaining-useful-life/)
 - RUL(2): (https://osapiens-cmms.com/learning-center/remaining-useful-life/)
 - MLP: (https://www.datacamp.com/tutorial/multilayer-perceptrons-in-machine-learning)
@@ -202,3 +204,4 @@ Capstone-Project/
 - Build Docker image: (https://docs.docker.com/build/)
 
 ---
+
