@@ -164,16 +164,16 @@ Expected output (Make sure Docker container is running, run this in a separate t
 ## 9. Project Structure
 ```text
 Capstone-Project/
+├── screenshots           # Folder for photos
+├── Dockerfile            # Container
+├── README.md             # Description
+├── RUL_FD001.txt         # Raw data(RUL only)
 ├── app.py                # Flask API
-├── Dockerfile            # Container 
 ├── lstm_rul_final.pth    # Saved LSTM model
 ├── notebook.ipynb        # Notebook
 ├── predict.py            # Script to test API
-├── README.md             # Description
 ├── requirements.txt      # Dependencies
-├── RUL_FD001.txt         # Raw data(RUL only)
 ├── scaler.pkl            # MinMaxScaler used
-├── screenshots           # Folder for photos
 ├── test_FD001.txt        # Raw data(test)
 └── train_FD001.txt       # Raw data(train)
 ```
@@ -185,4 +185,20 @@ Capstone-Project/
 ---
 
 ## 11. References
-NASA CMAPSS Dataset: (https://data.nasa.gov/dataset/cmapss-jet-engine-simulated-data)
+
+- NASA CMAPSS Dataset: (https://data.nasa.gov/dataset/cmapss-jet-engine-simulated-data)
+- LinkedIn post:
+- RUL(1): (https://fiixsoftware.com/maintenance-metrics/remaining-useful-life/)
+- RUL(2): (https://osapiens-cmms.com/learning-center/remaining-useful-life/)
+- MLP: (https://www.datacamp.com/tutorial/multilayer-perceptrons-in-machine-learning)
+- MLP PyTorch: (https://docs.pytorch.org/vision/main/generated/torchvision.ops.MLP.html)
+- LSTM: (https://www.geeksforgeeks.org/deep-learning/deep-learning-introduction-to-long-short-term-memory/)
+- LSTM PyTorch: (https://docs.pytorch.org/docs/stable/generated/torch.nn.LSTM.html)
+- Window functions: (https://sqlpad.io/tutorial/mastering-python-window-functions-a-comprehensive-guide/)
+- Hyperparameter Tuning in Deep Learning: (https://medium.com/data-science/hyper-parameter-tuning-techniques-in-deep-learning-4dad592c63c8)
+- Hyperparameter Tuning: (https://www.geeksforgeeks.org/machine-learning/hyperparameter-tuning/)
+- Flask RESTful API(1): (https://auth0.com/blog/developing-restful-apis-with-python-and-flask/)
+- Flask RESTful API(2): (https://www.geeksforgeeks.org/python/python-build-a-rest-api-using-flask/)
+- Build Docker image: (https://docs.docker.com/build/)
+
+---
