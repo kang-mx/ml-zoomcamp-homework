@@ -15,7 +15,9 @@ class Defect(BaseModel):
 class PredictResponse(BaseModel):
     repair_cost: float
 
-app = FastAPI(title='repair-cost-prediction')
+app = FastAPI(title='Repair Cost Prediction API',
+              description="Predicts manufacturing defect repair costs based on defect characteristics.",
+              version="1.0.0")
 
 # Load model + DictVectorizer
 with open('model.bin', 'rb') as f_in:
@@ -23,11 +25,16 @@ with open('model.bin', 'rb') as f_in:
 
 @app.post('/predict', response_model=PredictResponse)
 def predict(defect: Defect):
-    defect_dict = [defect.dict()]  # convert to list of dicts
+    defect_dict = [defect.model_dump()]
     X = dv.transform(defect_dict)
     y_pred = model.predict(X)[0]
     return PredictResponse(repair_cost=float(y_pred))
 
+@app.get("/health")
+def health_check():
+    return {"status": "ok"}
+
 if __name__ == '__main__': 
 
     uvicorn.run(app, host='0.0.0.0', port=3000)
+
