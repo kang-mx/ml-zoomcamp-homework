@@ -103,6 +103,14 @@ Multiple models were trained and evaluated:
 ---
 
 ## 7. How to Run Locally
+0. Create and activate a virtual environment:
+
+```bash
+python -m venv venv
+source venv/bin/activate    # macOS/Linux
+# OR
+venv\Scripts\activate       # Windows
+```
 
 1. Install dependencies:
 
@@ -204,4 +212,5 @@ Capstone-Project/
 - Build Docker image: (https://docs.docker.com/build/)
 
 ---
+
 
