@@ -67,6 +67,8 @@ def predict_rul():
         if seq.shape[1] != input_dim:
             return jsonify({"error": f"Expected {input_dim} features per timestep"}), 400
 
+        # Input sequence shape: (window_size, 16)
+        # Features: [cycle, sensor_2, sensor_3, ..., sensor_21] — same order as training
         seq_scaled = scaler.transform(seq)
         seq_tensor = torch.tensor(seq_scaled).unsqueeze(0).to(device)
 
@@ -83,3 +85,4 @@ def predict_rul():
 # -------------------------
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
+
