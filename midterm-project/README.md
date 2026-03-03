@@ -202,7 +202,7 @@ Render supports direct Docker deployment.
 5. Click Deploy
 
 Render will give you a public URL:
-https://repair-cost-api.onrender.com/predict
+https://repair-cost-api.onrender.com/docs
 
 ⚠️ Note: This service is hosted on Render's free tier. 
 If inactive, it may take 60–90 seconds to wake up on first request. 
@@ -233,6 +233,7 @@ Environment is fully isolated inside .venv.
 This project is for educational use and demonstration purposes.
 
 ---
+
 
 
 
